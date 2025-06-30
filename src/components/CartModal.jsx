@@ -10,8 +10,8 @@ const CartModal = ({
 }) => {
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-end"
-      onClick={onClose} // Close modal when clicking on overlay outside modal
+      className="fixed top-0 right-0 h-full z-50 flex justify-end"
+      onClick={onClose}
     >
       <div
         className={`w-80 sm:w-96 h-full shadow-lg flex flex-col ${
